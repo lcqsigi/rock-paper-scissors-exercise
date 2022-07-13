@@ -1,1 +1,1 @@
-# rock-paper-scissors-exercise
+# rock-paper-scissors-exercise The details of the code can be found [here](https://github.com/lcqsigi/rock-paper-scissors-exercise).The only requirement is python 3.To execute open a terminal and type:```shpython game.py```
