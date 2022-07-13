@@ -16,11 +16,11 @@ valid_options = ["rock","paper","scissors"]
 
 #2 validate user input
 
-if user_input not in valid_options:
+if user_input.lower() not in valid_options:
     print("Invalid option try again")
     exit() #quit()
 
-print(f"You chose: '{user_input}' ")
+print(f"You chose: '{user_input.lower()}' ")
 
 
 #3 computer choice
@@ -36,11 +36,11 @@ print(f"Computer chose: '{computer_input}' ")
 
 #4 determine the winner
 
-if user_input == 'rock':
+if user_input.lower() == 'rock':
     num_user = 0
-if user_input == 'paper':
+if user_input.lower() == 'paper':
     num_user = 1
-if user_input == 'scissors':
+if user_input.lower() == 'scissors':
     num_user = 2
 
 if computer_input == 'rock':
