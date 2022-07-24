@@ -1,0 +1,5 @@
+
+
+# the "pytest" package helps us run automated tests
+# see: https://pypi.org/project/pytest/
+pytest
